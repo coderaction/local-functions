@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/FunctionExample.csproj": {}
+  },
+  "projects": {
+    "/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/FunctionExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/FunctionExample.csproj",
+        "projectName": "FunctionExample",
+        "projectPath": "/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/FunctionExample.csproj",
+        "packagesPath": "/Users/serkaneren/.nuget/packages/",
+        "outputPath": "/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/serkaneren/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp5.0"
+        ],
+        "sources": {
+          "http://nuget.iddaa.com/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp5.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

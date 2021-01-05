@@ -1,0 +1,15 @@
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/FunctionExample.deps.json
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/FunctionExample.runtimeconfig.json
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/FunctionExample.runtimeconfig.dev.json
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/FunctionExample.dll
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/ref/FunctionExample.dll
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/bin/Debug/netcoreapp5.0/FunctionExample.pdb
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.csprojAssemblyReference.cache
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.AssemblyInfoInputs.cache
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.AssemblyInfo.cs
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.csproj.CoreCompileInputs.cache
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.dll
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/ref/FunctionExample.dll
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.pdb
+/Users/serkaneren/Desktop/gitP/localFunctions/FunctionExample/obj/Debug/netcoreapp5.0/FunctionExample.genruntimeconfig.cache
