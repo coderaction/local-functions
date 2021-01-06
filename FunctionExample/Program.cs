@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace FunctionExample
 {
@@ -11,6 +16,7 @@ namespace FunctionExample
             ExampleOne();
 
             ExampleTwo();
+            
         }
         
         private static void ExampleOne()
@@ -55,6 +61,37 @@ namespace FunctionExample
             }
             
             Console.WriteLine($"Total: {Total()}");
+        }
+        
+        async Task WriteEmailsAsync()
+        {
+            var emailRegex = new Regex(@"(?i)[a-z0-9_.+-]+@[a-z0-9-]+\.[a-z0-9-.]+");
+            IEnumerable<string> emails1 = await getEmailsFromFileAsync("input1.txt");
+            IEnumerable<string> emails2 = await getEmailsFromFileAsync("input2.txt");
+            await writeLinesToFileAsync(emails1.Concat(emails2), "output.txt");
+
+            async Task<IEnumerable<string>> getEmailsFromFileAsync(string fileName)
+            {
+                string text;
+
+                using (StreamReader reader = File.OpenText(fileName))
+                {
+                    text = await reader.ReadToEndAsync();
+                }
+
+                return from Match emailMatch in emailRegex.Matches(text) select emailMatch.Value;
+            }
+
+            async Task writeLinesToFileAsync(IEnumerable<string> lines, string fileName)
+            {
+                using (StreamWriter writer = File.CreateText(fileName))
+                {
+                    foreach (string line in lines)
+                    {
+                        await writer.WriteLineAsync(line);
+                    }
+                }
+            }
         }
     }
 }
